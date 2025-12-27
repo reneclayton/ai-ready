@@ -7,10 +7,14 @@ export default {
   theme: {
     extend: {
       colors: {
-        background: '#0a0b10',
-        primary: '#4ade80', // teal-400
-        secondary: '#facc15', // yellow-400
-        surface: '#12141c',
+        primary: {
+          DEFAULT: '#0846AA',
+          light: '#2563EB',
+          dark: '#1E40AF',
+        },
+        secondary: '#4B5563',
+        accent: '#11BED4',
+        background: '#FAFAFA',
       },
       fontFamily: {
         mono: ['"JetBrains Mono"', 'monospace'],
